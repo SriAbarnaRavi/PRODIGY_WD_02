@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.nav {
+  color: #c3195d;
+  font-family: "Pacifico";
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-weight: 700;
+  background: #ffb6b9;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+  cursor: pointer;
+  position: fixed;
+}
+.frame {
+  display: flex;
+}
+
+.hrs,
+.min,
+.sec,
+.ms,
+.colon {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  font-family: "Digital-7";
+}
+.colon {
+  width: 10px;
+  height: 50px;
+}
+.buttons {
+  margin-top: 25px;
+}
+.buttons button {
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.start {
+  background-color: #4c9173;
+}
+.pause {
+  background-color: #fcff82;
+}
+.reset {
+  background-color: #ff0000;
+}
+
+.start-active,
+.pause-active {
+  pointer-events: none;
+  opacity: 0.5;
+}
